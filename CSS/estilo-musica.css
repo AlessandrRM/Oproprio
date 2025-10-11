@@ -1,0 +1,84 @@
+body{
+    background-image: url(../imagens/fundo-musica.png);
+    background-attachment: fixed;
+    
+}
+.navegacao-botoes{
+    padding-top: 25px;
+}
+.botoes-principais{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 30px;
+}
+.nva a{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    size: 12px;
+    color: black;
+}
+.botoes-principais :hover{
+    background-color: #CCFFCC ;
+}
+
+.nva {
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: #E0BC00;
+}
+
+
+.musica img{
+    width: 150px;
+    height: 150px;
+   text-align: right;
+}
+
+.lista-album{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:50px;
+}
+.gmusica desc p {
+    height: 150px;
+    width: 150px;
+}
+
+.gmusica{
+    width: 600px;
+}
+
+.musica {
+    display: flex;              
+    align-items: center;       
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.87);
+    gap: 10px;                  
+    border-radius: 10px;
+    margin-bottom: 10px;        
+    
+}
+.nome-musica {
+    font-size: 35px;
+    font-style:initial ;
+
+}
+.alessandrm {
+    text-align: center;
+}
+.alessandrm a{
+    text-decoration: none;
+    color:white;
+}
+
+
+    
+
+
+
+
