@@ -1,6 +1,9 @@
 body{
     background-image: url(https://rollingstone.com.br/wp-content/uploads/2024/07/yago-oproprio-foto-enio-cesar.jpg);
     background-attachment: fixed;
+    background-repeat: no-repeat;    
+    background-position: center;     
+    background-size: cover;   
     
 }
 .navegacao-botoes{
